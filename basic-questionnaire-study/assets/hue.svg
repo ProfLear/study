@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 303 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-606.396,-173.773)">
+        <g id="Equally-Splaced-Hue" serif:id="Equally Splaced Hue" transform="matrix(1,0,0,1,567.896,21.0422)">
+            <g transform="matrix(1,0,0,1,40,0)">
+                <g transform="matrix(4.7855,0,0,5.43806,-251.651,-1693.59)">
+                    <rect x="52.586" y="339.794" width="62.689" height="18.389" style="fill:white;stroke:black;stroke-width:0.59px;"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,14.711,121.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(0,127,255);"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,-51.9556,121.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(255,0,254);"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,148.044,121.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(0,179,0);"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,81.3777,121.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(177,88,0);"/>
+                </g>
+            </g>
+        </g>
+        <g id="Unordered-letters" serif:id="Unordered letters">
+        </g>
+        <g id="hue" transform="matrix(1,0,0,1,567.896,31.0422)">
+            <g transform="matrix(1,0,0,1,40,0)">
+                <g transform="matrix(4.7855,0,0,5.43806,-251.651,-1703.59)">
+                    <rect x="52.586" y="339.794" width="62.689" height="18.389" style="fill:white;stroke:black;stroke-width:0.59px;"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,14.711,111.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(154,0,185);"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,-51.9556,111.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(126,0,255);"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,148.044,111.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(172,7,90);"/>
+                </g>
+                <g transform="matrix(0.49019,0,0,0.489977,81.3777,111.345)">
+                    <circle cx="208" cy="169.162" r="51.009" style="fill:rgb(146,15,124);"/>
+                </g>
+            </g>
+        </g>
+        <g id="angle">
+        </g>
+        <g id="position">
+        </g>
+        <g id="Counting">
+        </g>
+    </g>
+</svg>
