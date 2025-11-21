@@ -1,0 +1,12 @@
+/* Targets the container inside your specific question block */
+#question-block .mantine-Group-root {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+}
+
+/* Targets the buttons to make them fill the width */
+#question-block button {
+  width: 100% !important; 
+  margin: 0 !important;
+}
