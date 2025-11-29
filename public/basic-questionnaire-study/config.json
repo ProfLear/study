@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
-    "title": "Basic Questionnaire Study",
+    "title": "Ordering Survey",
     "version": "pilot",
     "authors": [
       "The reVISit Team"
@@ -44,6 +44,13 @@
     "demographics": {
       "type": "questionnaire",
       "response": [
+        {
+          "id": "name",
+          "prompt": "What is your name?",
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Enter your name",
+        },
         {
           "id": "age",
           "prompt": "What is your age?",
