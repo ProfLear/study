@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/GlobalConfigSchema.json",
   "configsList": [
+    "2025-SC103N-hue-ordering",
     "basic-questionnaire-study",
     "tutorial",
     "demo-html",
@@ -52,6 +53,9 @@
     "test-step-logic"
   ],
   "configs": {
+    "2025-SC103N-hue-ordering": {
+      "path": "./2025-SC103N-hue-ordering/config.json"
+    },
     "basic-questionnaire-study": {
       "path": "basic-questionnaire-study/config.json"
     },
