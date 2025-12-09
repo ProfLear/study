@@ -7,18 +7,18 @@ In some cases, the ordering may be obvious. **For instance, in the example below
 <hr style="border: 0; border-top: 1px solid #000; margin: 20px 0;" />
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="./2025-SC103N-hue-ordering/assets/Example1.png" style="width: 300px;" alt="Example 1" />
+  <img src="./basic-questionnaire-study/assets/Example1.png" style="width: 300px;" alt="Example 1" />
 </div>
 
 <hr style="border: 0; border-top: 1px solid #000; margin: 20px 0;" />
 
 
-In other cases, you may not be able to decide which order is better, and so you can select neither. *An example of such a pair is given below, with the option "Neither" being shown as selected.**
+In other cases, you may not be able to decide which order is better, and so you can select neither. **An example of such a pair is given below, with the option "Neither" being shown as selected.**
 
 <hr style="border: 0; border-top: 1px solid #000; margin: 20px 0;" />
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="./2025-SC103N-hue-ordering/assets/Example2.png" style="width: 300px;" alt="Example 2" />
+  <img src="./basic-questionnaire-study/assets/Example2.png" style="width: 300px;" alt="Example 2" />
 </div>
 
 <hr style="border: 0; border-top: 1px solid #000; margin: 20px 0;" />

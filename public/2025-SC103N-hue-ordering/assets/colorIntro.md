@@ -5,7 +5,7 @@ In what follows, you will be asked to answer questions regarding a series of col
 <hr style="border: 0; border-top: 1px solid #000; margin: 20px 0;" />
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="./basic-questionnaire-study/assets/colorTestExample.png" style="width: 500px;" alt="Example 2" />
+  <img src="./2025-SC103N-hue-ordering/assets/colorTestExample.png" style="width: 500px;" alt="Example 2" />
 </div>
 
 <hr style="border: 0; border-top: 1px solid #000; margin: 20px 0;" />

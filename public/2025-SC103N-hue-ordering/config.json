@@ -1,22 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
-    "title": "Ordering Survey",
+    "title": "Ordering Survey, SC103N, 2025",
     "version": "pilot",
     "authors": [
-      "The reVISit Team"
+      "Prof. Benjamin Lear"
     ],
-    "date": "2024-03-19",
-    "description": "A simple questionnaire study",
+    "date": "2025-12-09",
+    "description": "A survey on the ordering of symbols and colors",
     "organizations": [
-      "University of Utah",
-      "WPI",
-      "University of Toronto"
+      "Penn Sate University",
     ]
   },
   "uiConfig": {
-    "contactEmail": "contact@revisit.dev",
-    "helpTextPath": "basic-questionnaire-study/assets/help.md",
+    "contactEmail": "bul14@psu.edu",
+    "helpTextPath": "./2025-SC103N-hue-ordering/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
@@ -28,17 +26,17 @@
   "components": {
     "introduction": {
       "type": "markdown",
-      "path": "basic-questionnaire-study/assets/introduction.md",
+      "path": "./2025-SC103N-hue-ordering/assets/introduction.md",
       "response": []
     },
     "colorIntro": {
       "type": "markdown",
-      "path": "basic-questionnaire-study/assets/colorIntro.md",
+      "path": "./2025-SC103N-hue-ordering/assets/colorIntro.md",
       "response": []
     },
     "orderingIntro": {
       "type": "markdown",
-      "path": "basic-questionnaire-study/assets/orderingIntro.md",
+      "path": "./2025-SC103N-hue-ordering/assets/orderingIntro.md",
       "response": []
     },
     "demographics": {
@@ -79,54 +77,54 @@
       "type": "questionnaire",
       "response": [
         { "id": "h-h-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "h-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue1.svg' width='300'></div>" },
+        { "id": "h-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue1.svg' width='300'></div>" },
         { "id": "h-q-12", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "h-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue2.svg' width='300'></div>" }
+        { "id": "h-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue2.svg' width='300'></div>" }
       ]
     },
     "hue21": {
       "type": "questionnaire",
       "response": [
         { "id": "h-h-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "h-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue2.svg' width='300'></div>" },
+        { "id": "h-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue2.svg' width='300'></div>" },
         { "id": "h-q-21", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "h-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue1.svg' width='300'></div>" }
+        { "id": "h-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue1.svg' width='300'></div>" }
       ]
     },
     "hue13": {
       "type": "questionnaire",
       "response": [
         { "id": "h-h-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "h-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue1.svg' width='300'></div>" },
+        { "id": "h-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue1.svg' width='300'></div>" },
         { "id": "h-q-13", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "h-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue3.svg' width='300'></div>" }
+        { "id": "h-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue3.svg' width='300'></div>" }
       ]
     },
     "hue31": {
       "type": "questionnaire",
       "response": [
         { "id": "h-h-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "h-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue3.svg' width='300'></div>" },
+        { "id": "h-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue3.svg' width='300'></div>" },
         { "id": "h-q-31", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "h-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue1.svg' width='300'></div>" }
+        { "id": "h-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue1.svg' width='300'></div>" }
       ]
     },
     "hue23": {
       "type": "questionnaire",
       "response": [
         { "id": "h-h-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "h-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue2.svg' width='300'></div>" },
+        { "id": "h-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue2.svg' width='300'></div>" },
         { "id": "h-q-23", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "h-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue3.svg' width='300'></div>" }
+        { "id": "h-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue3.svg' width='300'></div>" }
       ]
     },
     "hue32": {
       "type": "questionnaire",
       "response": [
         { "id": "h-h-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "h-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue3.svg' width='300'></div>" },
+        { "id": "h-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue3.svg' width='300'></div>" },
         { "id": "h-q-32", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "h-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/hue2.svg' width='300'></div>" }
+        { "id": "h-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/hue2.svg' width='300'></div>" }
       ]
     },
 
@@ -134,54 +132,54 @@
       "type": "questionnaire",
       "response": [
         { "id": "a-h-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "a-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle1.svg' width='300'></div>" },
+        { "id": "a-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle1.svg' width='300'></div>" },
         { "id": "a-q-12", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "a-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle2.svg' width='300'></div>" }
+        { "id": "a-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle2.svg' width='300'></div>" }
       ]
     },
     "angle21": {
       "type": "questionnaire",
       "response": [
         { "id": "a-h-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "a-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle2.svg' width='300'></div>" },
+        { "id": "a-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle2.svg' width='300'></div>" },
         { "id": "a-q-21", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "a-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle1.svg' width='300'></div>" }
+        { "id": "a-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle1.svg' width='300'></div>" }
       ]
     },
     "angle13": {
       "type": "questionnaire",
       "response": [
         { "id": "a-h-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "a-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle1.svg' width='300'></div>" },
+        { "id": "a-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle1.svg' width='300'></div>" },
         { "id": "a-q-13", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "a-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle3.svg' width='300'></div>" }
+        { "id": "a-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle3.svg' width='300'></div>" }
       ]
     },
     "angle31": {
       "type": "questionnaire",
       "response": [
         { "id": "a-h-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "a-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle3.svg' width='300'></div>" },
+        { "id": "a-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle3.svg' width='300'></div>" },
         { "id": "a-q-31", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "a-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle1.svg' width='300'></div>" }
+        { "id": "a-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle1.svg' width='300'></div>" }
       ]
     },
     "angle23": {
       "type": "questionnaire",
       "response": [
         { "id": "a-h-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "a-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle2.svg' width='300'></div>" },
+        { "id": "a-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle2.svg' width='300'></div>" },
         { "id": "a-q-23", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "a-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle3.svg' width='300'></div>" }
+        { "id": "a-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle3.svg' width='300'></div>" }
       ]
     },
     "angle32": {
       "type": "questionnaire",
       "response": [
         { "id": "a-h-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "a-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle3.svg' width='300'></div>" },
+        { "id": "a-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle3.svg' width='300'></div>" },
         { "id": "a-q-32", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "a-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/angle2.svg' width='300'></div>" }
+        { "id": "a-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/angle2.svg' width='300'></div>" }
       ]
     },
 
@@ -189,54 +187,54 @@
       "type": "questionnaire",
       "response": [
         { "id": "p-h-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "p-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position1.svg' width='300'></div>" },
+        { "id": "p-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position1.svg' width='300'></div>" },
         { "id": "p-q-12", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "p-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position2.svg' width='300'></div>" }
+        { "id": "p-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position2.svg' width='300'></div>" }
       ]
     },
     "position21": {
       "type": "questionnaire",
       "response": [
         { "id": "p-h-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "p-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position2.svg' width='300'></div>" },
+        { "id": "p-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position2.svg' width='300'></div>" },
         { "id": "p-q-21", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "p-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position1.svg' width='300'></div>" }
+        { "id": "p-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position1.svg' width='300'></div>" }
       ]
     },
     "position13": {
       "type": "questionnaire",
       "response": [
         { "id": "p-h-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "p-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position1.svg' width='300'></div>" },
+        { "id": "p-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position1.svg' width='300'></div>" },
         { "id": "p-q-13", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "p-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position3.svg' width='300'></div>" }
+        { "id": "p-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position3.svg' width='300'></div>" }
       ]
     },
     "position31": {
       "type": "questionnaire",
       "response": [
         { "id": "p-h-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "p-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position3.svg' width='300'></div>" },
+        { "id": "p-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position3.svg' width='300'></div>" },
         { "id": "p-q-31", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "p-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position1.svg' width='300'></div>" }
+        { "id": "p-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position1.svg' width='300'></div>" }
       ]
     },
     "position23": {
       "type": "questionnaire",
       "response": [
         { "id": "p-h-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "p-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position2.svg' width='300'></div>" },
+        { "id": "p-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position2.svg' width='300'></div>" },
         { "id": "p-q-23", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "p-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position3.svg' width='300'></div>" }
+        { "id": "p-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position3.svg' width='300'></div>" }
       ]
     },
     "position32": {
       "type": "questionnaire",
       "response": [
         { "id": "p-h-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "p-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position3.svg' width='300'></div>" },
+        { "id": "p-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position3.svg' width='300'></div>" },
         { "id": "p-q-32", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "p-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/position2.svg' width='300'></div>" }
+        { "id": "p-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/position2.svg' width='300'></div>" }
       ]
     },
 
@@ -244,54 +242,54 @@
       "type": "questionnaire",
       "response": [
         { "id": "s-h-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "s-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols1.svg' width='300'></div>" },
+        { "id": "s-t-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols1.svg' width='300'></div>" },
         { "id": "s-q-12", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "s-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols2.svg' width='300'></div>" }
+        { "id": "s-b-12", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols2.svg' width='300'></div>" }
       ]
     },
     "symbols21": {
       "type": "questionnaire",
       "response": [
         { "id": "s-h-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "s-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols2.svg' width='300'></div>" },
+        { "id": "s-t-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols2.svg' width='300'></div>" },
         { "id": "s-q-21", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "s-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols1.svg' width='300'></div>" }
+        { "id": "s-b-21", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols1.svg' width='300'></div>" }
       ]
     },
     "symbols13": {
       "type": "questionnaire",
       "response": [
         { "id": "s-h-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "s-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols1.svg' width='300'></div>" },
+        { "id": "s-t-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols1.svg' width='300'></div>" },
         { "id": "s-q-13", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "s-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols3.svg' width='300'></div>" }
+        { "id": "s-b-13", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols3.svg' width='300'></div>" }
       ]
     },
     "symbols31": {
       "type": "questionnaire",
       "response": [
         { "id": "s-h-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "s-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols3.svg' width='300'></div>" },
+        { "id": "s-t-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols3.svg' width='300'></div>" },
         { "id": "s-q-31", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "s-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols1.svg' width='300'></div>" }
+        { "id": "s-b-31", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols1.svg' width='300'></div>" }
       ]
     },
     "symbols23": {
       "type": "questionnaire",
       "response": [
         { "id": "s-h-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "s-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols2.svg' width='300'></div>" },
+        { "id": "s-t-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols2.svg' width='300'></div>" },
         { "id": "s-q-23", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "s-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols3.svg' width='300'></div>" }
+        { "id": "s-b-23", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols3.svg' width='300'></div>" }
       ]
     },
     "symbols32": {
       "type": "questionnaire",
       "response": [
         { "id": "s-h-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<strong>Which image has the better ordering?</strong>" },
-        { "id": "s-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols3.svg' width='300'></div>" },
+        { "id": "s-t-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols3.svg' width='300'></div>" },
         { "id": "s-q-32", "type": "radio", "required": true, "location": "belowStimulus", "prompt": "", "options": ["The image above", "Neither", "The image below"] },
-        { "id": "s-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./basic-questionnaire-study/assets/symbols2.svg' width='300'></div>" }
+        { "id": "s-b-32", "type": "textOnly", "location": "belowStimulus", "prompt": "<div style='text-align: center;'><img src='./2025-SC103N-hue-ordering/assets/symbols2.svg' width='300'></div>" }
       ]
     }
   },
